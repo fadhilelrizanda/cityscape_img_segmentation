@@ -14,7 +14,7 @@ This project compares **[DeepLabV3](https://learnopencv.com/deeplabv3-ultimate-g
 | Model     | Best Epoch | mIoU  | Note                     |
 | --------- | ---------- | ----- | ------------------------ |
 | DeepLabV3 | 74         | 0.726 | Lightweight, efficient   |
-| SegFormer | —          | 0.727 | Slightly better, heavier |
+| SegFormer | 49         | 0.727 | Slightly better, heavier |
 
 ---
 
