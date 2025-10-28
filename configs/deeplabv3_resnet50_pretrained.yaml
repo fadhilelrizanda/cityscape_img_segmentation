@@ -1,0 +1,19 @@
+model:
+    arch: "deeplabv3"
+    name: "deeplabv3_resnet50_pretrained"
+    num_classes: 19
+    weight: "COCO_WITH_VOC_LABELS_V1"
+    pretrained: True
+
+optim:
+    name: "AdamW"
+    lr: 1.0e-5
+    weight_decay: 1.0e-4
+
+data:
+    batch_size: 10
+
+train:
+    epochs: 80
+    
+    

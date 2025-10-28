@@ -1,0 +1,11 @@
+ipykernel
+albumentationsx
+python-dotenv
+wandb
+opencv-python
+torch 
+torchvision
+PyYAML
+tqdm
+pillow
+transformers

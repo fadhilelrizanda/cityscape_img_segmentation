@@ -1,0 +1,18 @@
+model:
+    arch: "SegFormer"
+    name: "SegFormer_pretrained"
+    num_classes: 19
+    weight: True
+
+optim:
+    name: "AdamW"
+    lr: 6.0e-5
+    weight_decay: 0.01
+
+data:
+    batch_size: 4
+
+train:
+    epochs: 80
+    
+    
